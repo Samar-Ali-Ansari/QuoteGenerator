@@ -17,9 +17,9 @@ def get_quote():
     json_data = json.loads(response.text)
     #organising quote + author with q and a 
     quote = json_data[0]['q'] + '-' + json_data[0]['a']
-    print("-----------")
+
     print(quote)#prints quote
-    print("-----------")
+
 
 #User inputs
 def user_input():
